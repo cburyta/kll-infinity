@@ -1,0 +1,18 @@
+Name = viVisual;
+Version = 1.0;
+Author = "Chris Buryta <chris@buryta.com>";
+KLL = 0.3;
+
+Date = 2015-02-18;
+
+# Always let bottom left escape Vim mode.
+U"Function2" : layerLock( 1 );
+
+# Exit to normal mode
+U"Esc" : layerLock ( 2 );
+
+# Make _actual_ vi keys operate like arrow keys to highlight text
+U"H" : U"LShift" + U"Left";
+U"J" : U"LShift" + U"Down";
+U"K" : U"LShift" + U"Up";
+U"L" : U"LShift" + U"Right";

@@ -1,0 +1,12 @@
+Name = viInsert;
+Version = 1.0;
+Author = "Chris Buryta <chris@buryta.com>";
+KLL = 0.3;
+
+Date = 2015-02-18;
+
+# Identify!
+U"Function4" : 'viInsert';
+
+# Exit to normal mode
+U"Esc" : layerLock ( 2 );

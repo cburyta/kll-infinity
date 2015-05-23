@@ -1,0 +1,23 @@
+Name = viNormal;
+Version = 1.0;
+Author = "Chris Buryta <chris@buryta.com>";
+KLL = 0.3;
+
+Date = 2015-02-18;
+
+# Always let bottom left escape Vim mode.
+#U"Function2" : layerLock( 1 );
+
+U"Function4"    : 'viNormal';
+
+# Emulate "i" to go to insert mode
+# U"I" : layerLock( 3 );
+
+# Emulate "v" to go to visual mode
+# U"V" : layerLock( 4 );
+
+# Make _actual_ vi keys operate like arrow keys.
+U"H" : U"Left";
+U"J" : U"Down";
+U"K" : U"Up";
+U"L" : U"Right";
