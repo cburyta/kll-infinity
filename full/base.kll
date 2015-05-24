@@ -1,4 +1,4 @@
-Name = infinityOverlay;
+Name = base;
 Version = 1.0;
 Author = "Chris Buryta <chris@buryta.com>";
 KLL = 0.3;
@@ -12,6 +12,9 @@ Date = 2015-02-18;
 # Latch - Enables keymap until the next key is pressed
 # Lock  - Enables keymap until Lock is pressed again
 
+# Bottom right toggle layer 2
+U"Function4"    : 'base';
+
 # Fun key right of RShift
 U"Function1" : layerShift( 1 );
 
@@ -21,11 +24,16 @@ U"Function2"    : layerLock( 2 );
 # Bottom right (second in) hold to layer 2
 U"Function3"    : layerShift( 1 );
 
-# Bottom right toggle layer 2
-U"Function4"    : 'infinityOverlay';
-
-# Map bottom right row of keys to make to vi-like arrow keys by default.
-#U"RGui"      : U"Left";
-#U"RAlt"      : U"Down";
-#U"Function3" : U"Up";
-#U"Function4" : U"Right";
+# Other function layers
+U"Function5" : layerShift( 5 );
+U"Function6" : layerShift( 6 );
+U"Function7" : layerShift( 7 );
+U"Function8" : layerShift( 8 );
+U"Function9" : layerShift( 9 );
+U"Function10" : layerShift( 10 );
+U"Function11" : layerShift( 11 );
+U"Function12" : layerShift( 12 );
+U"Function13" : layerShift( 13 );
+U"Function14" : layerShift( 14 );
+U"Function15" : layerShift( 15 );
+U"Function16" : layerShift( 16 );

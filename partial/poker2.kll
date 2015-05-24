@@ -5,6 +5,9 @@ KLL = 0.3;
 
 Date = 2015-05-21;
 
+# Identify!
+U"Function4" : 'poker2';
+
 # Make Poker II wasd style keys act as arrow keys.
 U"W" : U"Up";
 U"A" : U"Left";

@@ -19,8 +19,7 @@ cmake                                                                   \
       -DOutputModule=pjrcUSB                                            \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
-      -DDefaultMap="config/infinityOverlay config/stdFuncMap;" \
-      -DPartialMaps="config/poker2; config/viNormal;" \
+      -DPartialMaps="config/partial/poker2; config/full/viNormal; config/full/viVisual" \
       ..
 
 # -DPartialMaps="config/poker2 config/viKeys;config/viKeys"

@@ -5,6 +5,9 @@ KLL = 0.3;
 
 Date = 2015-02-18;
 
+# Identify! Bottom right toggle layer 2
+U"Function4"    : 'viVisual';
+
 # Always let bottom left escape Vim mode.
 U"Function2" : layerLock( 1 );
 
@@ -16,3 +19,4 @@ U"H" : U"LShift" + U"Left";
 U"J" : U"LShift" + U"Down";
 U"K" : U"LShift" + U"Up";
 U"L" : U"LShift" + U"Right";
+
