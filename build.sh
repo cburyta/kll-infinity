@@ -19,6 +19,7 @@ cmake                                                                   \
       -DOutputModule=pjrcUSB                                            \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
+      -DDefaultMap="config/full/base;" \
       -DPartialMaps="config/partial/poker2; config/full/viNormal; config/full/viVisual" \
       ..
 
