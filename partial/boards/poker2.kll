@@ -17,10 +17,10 @@ U"D" : U"Right";
 # Poker II Backspace / Delete switch
 U"Backspace" : U"Delete";
 
-# Media / volumne
-U"M" : U"VolumeDown";
-U"N" : U"VolumeUp";
-U"Comma" : U"Mute";
+# Media
+U"N" : U"VolumeDown";
+U"M" : U"VolumeUp";
+U"Period" : U"Mute";
 
 # Function keys
 U"1" : U"F1";

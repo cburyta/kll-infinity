@@ -8,15 +8,6 @@ Date = 2015-02-18;
 # Identify! Bottom right toggle layer 2
 U"Function4"    : 'viNormal';
 
-# Always let bottom left escape Vim mode.
-U"Function2" : layerLock( 2 );
-
-# Emulate "i" to go to insert mode
-# U"I" : layerLock( 2 );
-
-# Emulate "v" to go to visual mode
-U"V" : layerLock( 3 );
-
 # Make _actual_ vi keys operate like arrow keys.
 U"H" : U"Left";
 U"J" : U"Down";

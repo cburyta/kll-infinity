@@ -12,17 +12,14 @@ Date = 2015-02-18;
 # Latch - Enables keymap until the next key is pressed
 # Lock  - Enables keymap until Lock is pressed again
 
-# Bottom right toggle layer 2
-U"Function4"    : 'base';
+U"Function1"    : layerShift( 1 );         # Fun key right of RShift
+U"Function2"    : layerShift( 2 );         # Bottom left function key turns on layer 2.
+U"Function3"    : layerLock( 3 );          # Bottom right (second in) hold to layer 2
+U"Function4"    : 'base';                  # Bottom right toggle layer 2
 
-# Fun key right of RShift
-U"Function1" : layerShift( 1 );
+U"Function2" + U"LShift" : layerLock( 2 ); # shift plus fun2 locks the layer to vi mode
 
-# Bottom left function key turns on layer 2.
-U"Function2"    : layerLock( 2 );
-
-# Bottom right (second in) hold to layer 2
-U"Function3"    : layerShift( 1 );
+U"RAlt"         : layerShift( 1 );         # Right Alt Poker II style function
 
 # Other function layers
 U"Function5" : layerShift( 5 );

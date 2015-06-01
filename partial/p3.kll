@@ -1,0 +1,15 @@
+Name = p3;
+Version = 1.0;
+Author = "Chris Buryta <chris@buryta.com>";
+KLL = 0.3;
+
+Date = 2015-05-21;
+
+# partial 3 layout should be setup to help for standard layout
+# for the caps lock and left ctrl keys
+
+# Identify!
+U"Function4"    : 'p3';
+
+U"Function2"    : U"LCtrl";         # Bottom left function key turns on layer 2.
+U"Ctrl"         : U"Capslock";       # Bottom left function key turns on layer 2.

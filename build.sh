@@ -20,7 +20,7 @@ cmake                                                                   \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
       -DDefaultMap="config/full/base;" \
-      -DPartialMaps="config/partial/poker2; config/full/viNormal; config/full/viVisual" \
+      -DPartialMaps="config/partial/boards/poker2 config/partial/p1; config/partial/vi/viNormal config/partial/p2; config/partial/p3" \
       ..
 
 # -DPartialMaps="config/poker2 config/viKeys;config/viKeys"
