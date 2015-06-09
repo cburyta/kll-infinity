@@ -13,3 +13,6 @@ U"N" : 'N';
 U"M" : U"Mute";
 U"Comma" : U"VolumeDown";
 U"Period" : U"VolumeUp";
+
+# Backspace / Delete switch
+U"Backspace" : U"Delete";

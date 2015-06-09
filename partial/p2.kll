@@ -7,3 +7,6 @@ Date = 2015-05-21;
 
 # Identify!
 U"Function4" : 'p2';
+
+# Backspace / Delete switch
+U"Backspace" : U"Delete";
